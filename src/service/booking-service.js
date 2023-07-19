@@ -1,6 +1,6 @@
 const { BookingRepository } = require('../repository/index');
 const { FLGIHT_SERVICE_PATH } = require('../config/server-config');
-const { ServiceError, AppError } = require('../utils/index')
+const { ServiceError, AppError } = require('../utils/errors/index')
 const axios = require('axios');
 class BookingService {
 
